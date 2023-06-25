@@ -1,0 +1,32 @@
+{
+  "charge_point": {
+    "info": {
+      "vendor": "Generic",
+      "model": "Generic",
+      "id": "123",
+      "protocol_version": "1.6",
+      "current_client_version": "1.0",
+      "target_client_version": "1.0",
+      "server_uri": "",
+      "log_server": "",
+      "max_charging_time": 5
+    },
+    "hardware": {
+      "lcd": {
+        "is_supported": true,
+        "i2c_address": "0x27"
+      },
+      "rfid_reader": {
+        "is_supported": true,
+        "reader_model": "MFRC522",
+        "reset_pin": 19
+      },
+      "LED_indicator": {
+        "indicate_card_read": false,
+        "type": "",
+        "invert": false
+      },
+      "min_power": 0
+    }
+  }
+}

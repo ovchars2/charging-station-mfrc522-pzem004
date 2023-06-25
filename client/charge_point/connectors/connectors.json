@@ -1,0 +1,28 @@
+{
+  "EVSEs": [
+    {
+      "id": 1,
+      "connectors": [
+        {
+          "id": 1,
+          "type": "Schuko",
+          "status": "Available",
+          "session": {
+            "is_active": false,
+            "transaction_id": "",
+            "tag_id": "",
+            "started": "",
+            "consumption": []
+          },
+          "relay": {
+            "relay_pin": 26,
+            "default_state": 1
+          },
+          "power_meter": {
+            "power_meter_port": "/dev/ttyS0"
+          }
+        }
+      ]
+    }
+  ]
+}
